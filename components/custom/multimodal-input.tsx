@@ -21,14 +21,24 @@ import { Textarea } from '../ui/textarea';
 
 const suggestedActions = [
   {
-    title: 'What is the weather',
-    label: 'in San Francisco?',
-    action: 'What is the weather in San Francisco?',
+    title: 'What are the',
+    label: 'trending memecoins today?',
+    action: 'What are the trending memecoins today?',
   },
   {
-    title: "Answer like I'm 5,",
-    label: 'why is the sky blue?',
-    action: "Answer like I'm 5, why is the sky blue?",
+    title: "What is the price of",
+    label: "$DOGE right now?",
+    action: "What is the price of $DOGE right now?",
+  },
+  {
+    title: "I would like to buy",
+    label: "42 $DOGE",
+    action: `I would like to buy 42 $DOGE`,
+  },
+  {
+    title: "What are some",
+    label: `recent events about $DOGE?`,
+    action: `What are some recent events about $DOGE?`,
   },
 ];
 
